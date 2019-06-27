@@ -1,0 +1,15 @@
+<p>
+  component1 works!
+</p>
+<ul>
+  <li *ngFor="let obj of users" (click)="selectUser(obj)">
+{{obj.title}}
+  </li>
+</ul>
+<form #myform='ngForm'>
+  <label>Title</label>
+<input type="text" name="title" ngModel><br>
+<label>Author</label>
+<input type="text" name="author" ngModel>
+<button (click)='adddata(myform.value)' type="button">GetData</button>
+</form>
