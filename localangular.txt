@@ -1,0 +1,4 @@
+importing formsModule form form
+crating a markup
+getting reference
+adding ngModel
